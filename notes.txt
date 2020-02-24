@@ -2,3 +2,6 @@ open console f12
 $ npx create-react-app part1
 $ cd part1
 npm start
+
+ReactDOM.render(<App />, document.getElementById('root'))
+renders the contents to the div element defined in the public/index.html of having the value root.
